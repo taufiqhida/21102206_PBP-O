@@ -15,10 +15,18 @@ public class MultipleCatch {
             int angka2 = input.nextInt();
 
             int hasil = angka1 / angka2;
-            System.out.println(angka1 + " / " + angka2 + " = " + hasil + "Di bulatkan ");
+            System.out.println(angka1 + " / " + angka2 + " = " + hasil + " Di bulatkan ");
         }
-        catch(ArithmeticException | InputMismatchException e){
+        catch(ArithmeticException e){
             System.out.println("Error : " + e);
+        }
+        catch (InputMismatchException e){
+            System.out.println("Error : "+ e);
+        }
+        finally {
+            System.out.println(
+                    "finnaly selalu di jalankan"
+            );
         }
         System.out.println("Akhir dari program");
     }
