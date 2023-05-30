@@ -13,9 +13,9 @@ public class Unguided {
         Scanner input = new Scanner(System.in);
         int hasil;
         try {
-            System.out.print("Masukkan Bilangan Pertama ");
+            System.out.print("Masukkan Bilangan Pertama : ");
             int angka1 = input.nextInt();
-            System.out.print("Masukkan Bilangan K5edua ");
+            System.out.print("Masukkan Bilangan Keedua : ");
             int angka2 = input.nextInt();
             hasil = jumlahBilangan(angka1, angka2);
 
