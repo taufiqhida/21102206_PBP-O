@@ -27,6 +27,8 @@ public class Unguided {
         }catch (InputMismatchException e){
             System.out.println("Error : "+e);
             System.out.println("Terjadi kesalahan: Pembagian dengan 0");
+        }finally {
+            System.out.println("Selesai");
         }
     }
 }
