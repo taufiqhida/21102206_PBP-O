@@ -23,10 +23,10 @@ public class Unguided {
 
         }catch (ArithmeticException e){
             System.out.println("Error : "+e);
-            System.out.println("Terjadi keselahan: Input tidak valid. Harap masukkan bilangan bulat");
+            System.out.println("Terjadi kesalahan: Pembagian dengan 0");
         }catch (InputMismatchException e){
             System.out.println("Error : "+e);
-            System.out.println("Terjadi kesalahan: Pembagian dengan 0");
+            System.out.println("Terjadi keselahan: Input tidak valid. Harap masukkan bilangan bulat");
         }finally {
             System.out.println("Selesai");
         }
